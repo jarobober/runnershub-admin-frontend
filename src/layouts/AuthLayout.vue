@@ -1,6 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="text-primary">auth</div>
-  <slot></slot>
+  <div class="d-flex flex-column bg-background">
+    <img src="@/assets/images/runnershub-logo.png" alt="RunnersHUB logo" />
+    <slot></slot>
+  </div>
 </template>
